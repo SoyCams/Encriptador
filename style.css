@@ -1,0 +1,126 @@
+body{
+    margin: 11px;
+    padding: 0px;
+    color: #fff;
+    background: linear-gradient(45deg,#132336,#53f502,#ef0658,#780dba,rgb(0, 255, 4),rgb(12, 12, 54) );
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+}
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+.logo{
+    width: 100%;
+    float: left;
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: #9004db;
+}
+.left-button{
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+.logoimg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.title{
+    float: inherit;
+    margin-left: 20%;
+    color:#fff;
+    text-shadow: 0 0 5px  #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+    cursor: pointer;
+    text-align: uppercase;
+    transition: 1s;
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0a3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #f3f5fc;
+}
+#imgDer{
+    margin-left: 5%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+#boton-encriptar{
+    font-size: 18px;
+    padding: 24px;                      
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background-color: #9004db;
+    text-decoration: none;
+    color: #04dbd0;
+    transition: .4s ease;
+
+
+}
+#boton-desencriptar{
+    font-size: 18px;
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    color: #ef0658;
+    text-decoration: none;
+    transition: .4s ease; 
+}
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+}
